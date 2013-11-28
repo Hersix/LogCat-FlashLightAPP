@@ -1,0 +1,112 @@
+11-28 16:51:56.956: D/dalvikvm(1258): GC_FOR_ALLOC freed 106K, 9% free 2874K/3144K, paused 52ms, total 55ms
+11-28 16:51:57.246: D/dalvikvm(1258): GC_FOR_ALLOC freed 75K, 9% free 3121K/3404K, paused 42ms, total 43ms
+11-28 16:51:57.276: I/dalvikvm-heap(1258): Grow heap (frag case) to 4.274MB for 1127536-byte allocation
+11-28 16:51:57.358: D/dalvikvm(1258): GC_FOR_ALLOC freed <1K, 7% free 4222K/4508K, paused 84ms, total 84ms
+11-28 16:51:58.756: E/ActivityThread(1258): Failed to find provider info for com.google.plus.platform
+11-28 16:51:58.896: I/Ads(1258): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+11-28 16:51:59.026: D/dalvikvm(1258): GC_FOR_ALLOC freed 298K, 10% free 4498K/4952K, paused 52ms, total 53ms
+11-28 16:51:59.356: D/dalvikvm(1258): DexOpt: --- BEGIN 'ads-885164253.jar' (bootstrap=0) ---
+11-28 16:51:59.516: D/AndroidRuntime(1258): Shutting down VM
+11-28 16:51:59.516: W/dalvikvm(1258): threadid=1: thread exiting with uncaught exception (group=0x41465700)
+11-28 16:51:59.576: E/AndroidRuntime(1258): FATAL EXCEPTION: main
+11-28 16:51:59.576: E/AndroidRuntime(1258): java.lang.RuntimeException: Unable to start activity ComponentInfo{flash.light.app/flash.light.app.MainActivity}: java.lang.NullPointerException: println needs a message
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2211)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.os.Looper.loop(Looper.java:137)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at java.lang.reflect.Method.invoke(Method.java:525)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at dalvik.system.NativeStart.main(Native Method)
+11-28 16:51:59.576: E/AndroidRuntime(1258): Caused by: java.lang.NullPointerException: println needs a message
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.util.Log.println_native(Native Method)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.util.Log.e(Log.java:231)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at flash.light.app.MainActivity.getCamera(MainActivity.java:191)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at flash.light.app.MainActivity.onStart(MainActivity.java:310)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.Activity.performStart(Activity.java:5143)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+11-28 16:51:59.576: E/AndroidRuntime(1258): 	... 11 more
+11-28 16:51:59.810: D/dalvikvm(1258): DexOpt: --- END 'ads-885164253.jar' (success) ---
+11-28 16:51:59.816: D/dalvikvm(1258): DEX prep '/data/data/flash.light.app/cache/ads-885164253.jar': unzip in 54ms, rewrite 454ms
+11-28 16:52:00.066: I/Ads(1258): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_getSdkConstants();AFMA_buildAdURL({"preqs":0,"session_id":"1732314434975025466","seq_num":"1","slotname":"a1529797ce4983e","u_w":360,"msid":"flash.light.app","cap":"m,a","js":"afma-sdk-a-v6.4.1","bas_off":0,"net":"ed","app_name":"2.android.flash.light.app","hl":"en","gnt":3,"carrier":"310260","u_audio":4,"u_sd":2,"simulator":1,"ms":"Rzkia0Dg86D8Nsy3EUObIHIUQOW5034Wo4zYkxwIXZ56EJdzEbOz3MYUZ68iQnPWMdTCxzwwPc3CNP8go1zwrU83tIM5AUPzj9eYFEURyXiBLAGkUdVEsUULtDLSZa41qfkExlNb-nWPCpKQff8-F4U2GlQix276tslzlNVW5Wb_tlBVHO7iZzk9h82fjR61oxRGrI2oS7YHvrJwJH-7dWuV5rSJzHu07pmd5o7c_buMt7hjeiOglVvzUOVYo_A5-Uw20fKX0l0ZTReJ_I7o2DwUpEIVfwpHlC6FO2AUe1b5JlU-qsTZ6IViWJ_eTbX3kZ2Au-Kbiuj1_MTbZUA2tQ","isu":"B3EEABB8EE11C2BE770B684D95219ECB","format":"320x50_mb","oar":0,"ad_pos":{"height":0,"visible":0,"y":0,"x":0,"width":0},"u_h":592,"pt":1,"bas_on":0,"ptime":0});</script></head><body></body></html>
+11-28 16:52:22.707: I/Process(1258): Sending signal. PID: 1258 SIG: 9
+11-28 16:54:18.346: D/dalvikvm(1312): GC_FOR_ALLOC freed 109K, 9% free 2874K/3148K, paused 59ms, total 62ms
+11-28 16:54:18.526: D/dalvikvm(1312): GC_FOR_ALLOC freed 75K, 9% free 3121K/3408K, paused 42ms, total 44ms
+11-28 16:54:18.541: I/dalvikvm-heap(1312): Grow heap (frag case) to 4.274MB for 1127536-byte allocation
+11-28 16:54:18.616: D/dalvikvm(1312): GC_FOR_ALLOC freed <1K, 7% free 4221K/4512K, paused 69ms, total 69ms
+11-28 16:54:19.877: E/ActivityThread(1312): Failed to find provider info for com.google.plus.platform
+11-28 16:54:19.996: I/Ads(1312): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+11-28 16:54:20.187: D/dalvikvm(1312): GC_FOR_ALLOC freed 296K, 10% free 4500K/4952K, paused 63ms, total 64ms
+11-28 16:54:20.406: D/dalvikvm(1312): DexOpt: --- BEGIN 'ads-885164253.jar' (bootstrap=0) ---
+11-28 16:54:20.737: D/AndroidRuntime(1312): Shutting down VM
+11-28 16:54:20.757: W/dalvikvm(1312): threadid=1: thread exiting with uncaught exception (group=0x41465700)
+11-28 16:54:20.849: E/AndroidRuntime(1312): FATAL EXCEPTION: main
+11-28 16:54:20.849: E/AndroidRuntime(1312): java.lang.RuntimeException: Unable to start activity ComponentInfo{flash.light.app/flash.light.app.MainActivity}: java.lang.NullPointerException: println needs a message
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2211)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.os.Looper.loop(Looper.java:137)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at java.lang.reflect.Method.invoke(Method.java:525)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at dalvik.system.NativeStart.main(Native Method)
+11-28 16:54:20.849: E/AndroidRuntime(1312): Caused by: java.lang.NullPointerException: println needs a message
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.util.Log.println_native(Native Method)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.util.Log.e(Log.java:231)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at flash.light.app.MainActivity.getCamera(MainActivity.java:191)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at flash.light.app.MainActivity.onStart(MainActivity.java:310)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.Activity.performStart(Activity.java:5143)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+11-28 16:54:20.849: E/AndroidRuntime(1312): 	... 11 more
+11-28 16:54:21.011: D/dalvikvm(1312): DexOpt: --- END 'ads-885164253.jar' (success) ---
+11-28 16:54:21.011: D/dalvikvm(1312): DEX prep '/data/data/flash.light.app/cache/ads-885164253.jar': unzip in 1ms, rewrite 605ms
+11-28 16:54:21.197: I/Ads(1312): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_getSdkConstants();AFMA_buildAdURL({"preqs":0,"session_id":"690882214143234165","seq_num":"1","slotname":"a1529797ce4983e","u_w":360,"msid":"flash.light.app","cap":"m,a","js":"afma-sdk-a-v6.4.1","bas_off":0,"net":"ed","app_name":"2.android.flash.light.app","hl":"en","gnt":3,"carrier":"310260","u_audio":4,"u_sd":2,"simulator":1,"ms":"Igq_ZKdreV4EtQIlwbJoAjcnpameFZcUZS93u7s_oKbG73JDsYpU8Vpr2NqAvFzd_r52LBqxsVUalEBASp8tG8lOBYe7JCaEFquo3JVIeM8RAcemIylR28LjTgPASXMRTyjsx63pXcKIcblD8AofTCAQB6mkjU3rkor09SneNq2UNznNIX1hYZKLmFQtX7cDtVrUNskt8PMt1MOpFDaZYCoKcWstvEHTYCuTww4Cp2RXY0EkTnWVO7Kg9DyQBKnLSPaEJGVV70cpIKyK6kJ5ugTZxnF-ynS2yKErW6IUjDdGtDodJdkOePY6VAQbCITwEMJRMFZIsetYg8mUA7mCvA","isu":"B3EEABB8EE11C2BE770B684D95219ECB","format":"320x50_mb","oar":0,"ad_pos":{"height":0,"visible":0,"y":0,"x":0,"width":0},"u_h":592,"pt":1,"bas_on":0,"ptime":0});</script></head><body></body></html>
+11-28 16:55:19.996: I/Ads(1312): AdLoader timed out after 60000ms while getting the URL.
+11-28 16:59:21.287: I/Process(1312): Sending signal. PID: 1312 SIG: 9
+11-28 17:10:13.657: D/dalvikvm(1363): GC_FOR_ALLOC freed 113K, 9% free 2874K/3148K, paused 49ms, total 52ms
+11-28 17:10:13.827: D/dalvikvm(1363): GC_FOR_ALLOC freed 75K, 9% free 3121K/3408K, paused 41ms, total 43ms
+11-28 17:10:13.847: I/dalvikvm-heap(1363): Grow heap (frag case) to 4.274MB for 1127536-byte allocation
+11-28 17:10:14.010: D/dalvikvm(1363): GC_FOR_ALLOC freed <1K, 7% free 4221K/4512K, paused 158ms, total 158ms
+11-28 17:10:15.286: E/ActivityThread(1363): Failed to find provider info for com.google.plus.platform
+11-28 17:10:15.406: I/Ads(1363): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+11-28 17:10:15.548: D/dalvikvm(1363): GC_FOR_ALLOC freed 297K, 10% free 4498K/4952K, paused 50ms, total 56ms
+11-28 17:10:15.756: D/dalvikvm(1363): DexOpt: --- BEGIN 'ads-885164253.jar' (bootstrap=0) ---
+11-28 17:10:16.086: D/AndroidRuntime(1363): Shutting down VM
+11-28 17:10:16.086: W/dalvikvm(1363): threadid=1: thread exiting with uncaught exception (group=0x41465700)
+11-28 17:10:16.146: E/AndroidRuntime(1363): FATAL EXCEPTION: main
+11-28 17:10:16.146: E/AndroidRuntime(1363): java.lang.RuntimeException: Unable to start activity ComponentInfo{flash.light.app/flash.light.app.MainActivity}: java.lang.NullPointerException: println needs a message
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2211)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2261)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread.access$600(ActivityThread.java:141)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.os.Looper.loop(Looper.java:137)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread.main(ActivityThread.java:5103)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at java.lang.reflect.Method.invoke(Method.java:525)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at dalvik.system.NativeStart.main(Native Method)
+11-28 17:10:16.146: E/AndroidRuntime(1363): Caused by: java.lang.NullPointerException: println needs a message
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.util.Log.println_native(Native Method)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.util.Log.e(Log.java:231)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at flash.light.app.MainActivity.getCamera(MainActivity.java:191)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at flash.light.app.MainActivity.onStart(MainActivity.java:310)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1171)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.Activity.performStart(Activity.java:5143)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+11-28 17:10:16.146: E/AndroidRuntime(1363): 	... 11 more
+11-28 17:10:16.326: D/dalvikvm(1363): DexOpt: --- END 'ads-885164253.jar' (success) ---
+11-28 17:10:16.326: D/dalvikvm(1363): DEX prep '/data/data/flash.light.app/cache/ads-885164253.jar': unzip in 1ms, rewrite 572ms
+11-28 17:10:16.496: I/Ads(1363): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_getSdkConstants();AFMA_buildAdURL({"preqs":0,"session_id":"15454663344413908622","seq_num":"1","slotname":"a1529797ce4983e","u_w":360,"msid":"flash.light.app","cap":"m,a","js":"afma-sdk-a-v6.4.1","bas_off":0,"net":"ed","app_name":"2.android.flash.light.app","hl":"en","gnt":3,"carrier":"310260","u_audio":4,"u_sd":2,"simulator":1,"ms":"-S3REXVAdS25VwfCj5ABkRmq3vUGhMb0IFFLXaGIl9p48Q9PqudQDPcy6MQqHb0nPQanj9qHBFO5z1LF0oWZ5YzXZQsjWeEE8o-Wl1rJT4UKX9-4dafAxY7CJh4AW7i99TqfSPKgodzubPEZYATOMg9UU7X_UpGGsrxsDpEtfE2eQXhgzpenTRcq0hcwhKFkNT8qLrnQco-TXLqysxOF2GjAmDXN5Wmy5vw-021dxPSCszac2O8SYg2fzxTQBnvudFQtEGodvCC6708Zw67cU-z1ZJFjOqQ9O6iwYkLm59t5sc5KMYkFiuZyihArCb1036tm3K9TiKblguZcruCDCw","isu":"B3EEABB8EE11C2BE770B684D95219ECB","format":"320x50_mb","oar":0,"ad_pos":{"height":0,"visible":0,"y":0,"x":0,"width":0},"u_h":592,"pt":1,"bas_on":0,"ptime":0});</script></head><body></body></html>
+11-28 17:10:21.117: I/Process(1363): Sending signal. PID: 1363 SIG: 9
